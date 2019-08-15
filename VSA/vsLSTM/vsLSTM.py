@@ -7,7 +7,8 @@ from keras.datasets import mnist
 from keras.models import Sequential, Model
 from keras.layers.core import Dense, Dropout, Activation
 from keras.optimizers import RMSprop, SGD, Adam
-from keras.utils.visualize_util import plot
+#from keras.utils.visualize_util import plot
+from keras.utils.vis_utils import plot_model
 from keras.layers import Dense, Dropout, Embedding, LSTM, Bidirectional, Input, merge,BatchNormalization
 from keras.models import model_from_json
 from preprocess import *

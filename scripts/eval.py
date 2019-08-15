@@ -5,10 +5,9 @@ np.random.seed(1337)  # for reproducibility
 
 from keras.datasets import mnist
 from keras.models import Sequential, Model
-from keras.layers.core import Dense, Dropout, Activation
-from keras.optimizers import RMSprop, SGD, Adam
+from keras.optimizers import SGD, Adam
 from keras.utils.visualize_util import plot
-from keras.layers import Dense, Dropout, Embedding, LSTM, Bidirectional, Input, merge,BatchNormalization
+from keras.layers import Dense, Embedding, LSTM, Bidirectional, Input, merge,BatchNormalization
 from keras.models import model_from_json
 from preprocess import *
 from keras import metrics
@@ -19,7 +18,6 @@ import random
 from keyshots import to_keyshots_feature
 from utils import get_summery
 from sumMeEval import evaluateSummary
-from sklearn.preprocessing import normalize
 from utils import *
 
 features_size = 1024
