@@ -11,7 +11,7 @@ import shutil
 
 dataset = "t"
 setting = "t"
-# video_path = "/home/magedmilad/PycharmProjects/VSA/Jumps.webm"
+video_path = "/home/magedmilad/PycharmProjects/VSA/Jumps.webm"
 
 
 
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     parser.add_argument('-dir', '--sum_dir', dest='dest_dir')
 
     args = parser.parse_args()
-
+    print args
 
 
 
